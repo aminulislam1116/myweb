@@ -1,0 +1,68 @@
+.navbar-brand {
+    font-size: 37px;
+}
+
+.nav{
+    
+    
+    padding: 1px;
+    text-align: center;
+
+} 
+.a{
+    text-decoration: none;
+} 
+    
+
+.nav a{
+    text-decoration: none;
+    padding: 1px  10px;
+    margin: 0%;
+    cursor: pointer;
+}
+.drop_downcontainter{
+    display: inline;
+    position: relative;
+}
+
+.nav_hide{
+position:absolute;
+top: 40px;
+
+border-radius: 5px;
+background-color: rgb(102, 83, 53);
+text-align: center;
+min-width: 210px;
+display: none;
+font-size: 14px;
+}
+
+.nav_hide a{
+display: block;
+color: white;
+padding: 5px;
+
+}
+
+.nav_hide a:hover{
+    background-color: rgb(237, 223, 238);
+    color: black;
+    border-radius: 5px;
+    margin: 0px;
+    
+}
+
+.drop_downcontainter:hover .nav_hide{
+    display: block;
+    width: 100%;
+
+}
+
+
+.table, th, td{
+     border: 1px solid black;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
